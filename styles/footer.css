@@ -1,0 +1,54 @@
+.footer_wrapper {
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    width: 85%;
+    max-width: 1222px;
+    margin: 0 auto;
+}
+
+.footer_data {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.school_name {
+    display: none;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 858px){
+    .footer_wrapper {
+        flex-direction: column;
+        padding-top: 33px;
+        gap: 16px;
+        padding-bottom: 18px;
+    }
+
+    .school_name {
+        display: block;
+        font-family: Inter;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 20px;
+
+    }
+}

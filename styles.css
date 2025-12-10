@@ -1,0 +1,47 @@
+@import url("styles/header.css");
+@import url("styles/prices.css");
+@import url("styles/services.css");
+@import url("styles/contacts.css");
+@import url("styles/footer.css");
+@import url("styles/welcome.css");
+@import url("styles/about.css");
+
+body {
+    margin: 0;
+}
+
+ul,li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1222px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}

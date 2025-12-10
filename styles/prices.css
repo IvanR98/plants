@@ -1,0 +1,150 @@
+.prices_wrapper {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+
+.prices_options h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.prices_options_wrapper {
+    border-radius: 20px;
+    border: 1px solid #E3E1D5;
+    width: 332px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+}
+
+.options_button {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background: #EDF2EC;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 41px;
+    margin-right: 41px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.basic {
+    margin-top: 32px;
+}
+
+.options_button span {
+    margin-left: 40px;
+}
+
+
+.option_selector {
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.contact_us_wrapper {
+    display: flex;
+    gap: 39px;
+    flex-direction: column;
+    align-items: end;
+    
+}
+
+.contact_us_wrapper p {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    height: 103px;
+}
+
+.contact_us_wrapper span {
+    color: #499A18;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.contact_us_wrapper button {
+    width: 162px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E06733;
+    background-color: #FFF;
+    color: #E06733;
+    text-align: center;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact_us_wrapper img {
+    width: 152px;
+    height: 174px;
+}
+
+@media screen and (max-width: 849px) {
+    .contact_us_wrapper p{
+        font-size: 25px;
+    }
+    .contact_us_wrapper span {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .prices_wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .contact_us_wrapper p {
+        text-align: center;
+        padding-top: 19px;
+    }
+
+    .contact_us_wrapper button {
+        margin: 0 auto;
+    }
+    .contact_us_wrapper img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .prices_options h2{
+        font-size: 25px;
+    }
+    .options_button {
+        font-size:15px
+    }
+}

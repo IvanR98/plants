@@ -1,0 +1,73 @@
+.welcome {
+    background-color: #EDF2EC;
+    padding-bottom: 62px;
+}
+
+.welcome_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.welcome_text h1 {
+    color: #717171;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 111.111% */
+    padding-bottom: 42px;
+    max-width: 450px;
+}
+
+.welcome_text span {
+    color: #499A18;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.welcome_text p {
+    color: #636060;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    padding-bottom: 48px;
+    max-width: 450px;
+}
+
+.welcome_text button {
+    border-radius: 10px;
+    border: 2px solid #E06733;
+    background: rgba(224, 103, 51, 0.00);
+    padding: 14px 27px;
+}
+
+@media screen and (max-width: 1257px) {
+    .welcome_wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        }
+
+    .welcome_text h1 {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+    .welcome_text span {
+        font-size: 35px;
+    }
+
+    .welcome_text p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .leaves img {
+        width: 280px;
+    }
+}
+
