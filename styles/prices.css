@@ -47,6 +47,13 @@
     margin-top: 32px;
 }
 
+.underline {
+    color: #AEA1A1;
+    border: 1px;
+    width: 164px;
+    height: 0;
+}
+
 .options_button span {
     margin-left: 40px;
 }
